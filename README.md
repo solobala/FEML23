@@ -13,10 +13,10 @@
   * Улучшение распределения признаков путем трансформации (логарифмированиеЮ, стандартизация)
   *  кластеризация и формирование нового признака claster
   https://github.com/solobala/FEML23/blob/master/FEML23_DZ5.ipynb
-  * применение дерева решений в рамках задачи регрессии (данные о недвижимости Калифорнии) graphvis, plot_tree
+* применение дерева решений в рамках задачи регрессии (данные о недвижимости Калифорнии) graphvis, plot_tree
     https://github.com/solobala/FEML23/blob/master/FEML23_DZ6.ipynb
-  * базовые ансамблевые методы (классификации наличия болезни сердца) -
-  DecisionTreeClassifier,RandomForestClassifier, BaggingClassifier, StackingClassifier,
+* базовые ансамблевые методы (классификации наличия болезни сердца) -
+DecisionTreeClassifier,RandomForestClassifier, BaggingClassifier, StackingClassifier,
 бустинги - GradientBoostingClassifier, AdaBoostClassifier, LGBMClassifier, XGBClassifier, CatBoostClassifier
 https://github.com/solobala/FEML23/blob/master/FEML23_DZ7_1.ipynb
   
