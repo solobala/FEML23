@@ -19,4 +19,22 @@
 DecisionTreeClassifier,RandomForestClassifier, BaggingClassifier, StackingClassifier,
 бустинги - GradientBoostingClassifier, AdaBoostClassifier, LGBMClassifier, XGBClassifier, CatBoostClassifier
 https://github.com/solobala/FEML23/blob/master/FEML23_DZ7_1.ipynb
+* Поиск выбросов (классификация типов стекла).Проверка разных вариантов приведения признаков к нормальному распределению. Масштабирование данных методом скорректированного интервала. Поиск выбросов с помощью:
+  * pyod - 30 различных алгоримов, проверим ECOD, IForest, OCSVM, LOF, KNN
+  * Правило 3 сигм
+  * Межквартильный размах
+  * Удаление выбросов с использованием процентилей
+  * Махаланобис
+  * One Class SVM
+  * DBSCAN
+  * KNN
+  * Isolation Forest
+  https://github.com/solobala/FEML23/blob/master/FEML27_DZ8_3.ipynb
+* Feature Selection c помощью SHAP, матрицы корреляции, Mutual Information, SelectKBest, LDA, PCA, NCA, SelectFromModel, feature_impotance, SequentialFeatureSelector.
+  Поиск порога отсечения признаков с помощью VarianceThreshold
+  https://github.com/solobala/FEML23/blob/master/FEML27_DZ9_1.ipynb
+* Алгоритмы кластеризации KMeans, DBSCAN, HDBSCAN, AgglomerativeClustering. SSIM - потери от уменьшения к-ва цветов
+  https://github.com/solobala/FEML23/blob/master/FEML23_DZ10_2.ipynb
+* Улучшение качества модели (классификации наличия болезни сердца) - GridSearchCV, RandomizedSearchCV
+  https://github.com/solobala/FEML23/blob/master/FEML23_DZ11.ipynb
   
